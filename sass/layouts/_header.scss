@@ -14,21 +14,21 @@ header{
         justify-content: space-between;
         align-items: center;
         >.logo{
-    line-height: 70px;
-    > i{
-        font-size: 27px;
-        color:$orange
-    }
-    > a{
-        font-size: 27px;
-        color: $black;
-        font-weight: bold;
-        transition: .5s ;
-        &:hover{
-            color: $orange;
+            line-height: 70px;
+            > i{
+                font-size: 27px;
+                color:$orange
+            }
+            > a{
+                font-size: 27px;
+                color: $black;
+                font-weight: bold;
+                transition: .5s ;
+                &:hover{
+                    color: $orange;
+                }
+            }
         }
-    }
-}
 
     
     }
