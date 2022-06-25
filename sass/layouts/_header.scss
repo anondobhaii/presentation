@@ -1,24 +1,4 @@
-.wrapper{
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    > .toggle-button{
-        position: absolute;
-        top: .75rem;
-        right: 0rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        @include M(30px, 21px);
-        > .bar{
-            @include M(100px, 3px);
-            background-color: $black;
-            border-radius: 10px;
-        }
-    }
-}
+
 
 header{
     height: 70px;
@@ -27,11 +7,15 @@ header{
     width: 100%;
     z-index: 12;
     position: fixed;
-}
-
-.logo{
+    > .wrapper{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >.logo{
     line-height: 70px;
-    >i{
+    > i{
         font-size: 27px;
         color:$orange
     }
@@ -45,6 +29,11 @@ header{
         }
     }
 }
+
+    
+    }
+}
+
 
 .menu-btn{
     > i {
